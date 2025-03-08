@@ -2,6 +2,7 @@
 This is an addon for Godot 4.2+ that adds the `ParallaxMapping` node to the visual shader system. This node outputs UV based on height map for `Simple Offset Mapping` & `Parallax Occlusion Mapping`.
 
 ![ParallaxMapping](https://github.com/user-attachments/assets/f6111926-ebba-4a85-ad95-d945d6b52fb8)
+![parallaxm](https://github.com/user-attachments/assets/206f36d6-30f4-4b19-bc97-15dbec9673f2)
 
 # Method
 This node is directly ported from Godot's built in parallax occlusion shader available in `StandardMaterial3D`. The only difference is that the UV is calculated in fragment shader instead of vertex shader, because there's no way to access vertex shader directly from fragment shader.
